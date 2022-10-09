@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Start style header*/
+header{
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+header p{
+    font-weight: 500;
+}
+/* End style header*/
+
+/*Start style section*/
+section{
+    padding: 0.5em 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    position: relative;
+       
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    font-size: 100%;
+    margin: 0;
+}
+
+form{
+    width: 100%;
+    /* margin-left: 61%; */
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 2.15em 0 2.25em 0;
+    }
+
+.btn-submit{
+    color: white;
+    border-radius: 8px;
+	padding: 0.8em 1.25em;
+	background-color: rgb(101, 88, 245);
+	font-weight: 600;
+}
+.btn-submit:hover {
+	-webkit-filter: brightness(0.7);
+	filter: brightness(0.7);
+}
+
+.btn-submit:focus {
+	outline: 7px solid rgba(101, 88, 245, 0.8);
+}
+
+input[type="number"] {
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 30px;
+    padding: 1em;
+    border: 1px solid rgba(51, 51, 51, 0.3)
+}
+
+input[type="number"]:focus {
+    outline: 2px solid rgba(76, 1, 78, 0.6);
+}
+/* End style section*/
+
+/*start style result*/
+
+.result{
+    text-align: left;
+    margin-top: 2.5em;
+}
+
+h3{
+    font-weight: 500;
+}
+
+strong{
+    font-weight: 700;
+}
+
+/*end style result*/
+
+.hidden {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        margin: auto;
+        width: 80%;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        width: 70%;
+    }
+
+    label {
+        font-size: 1.15rem;
+    }
+
+    .result>h2 {
+        font-size: 1.115rem;
+    }
+
+    .btn-submit {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    section {
+        width: 50%;
+    }
+}

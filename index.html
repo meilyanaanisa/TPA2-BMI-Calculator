@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meilyana BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <H1>Check Your BMI</H1>
+        <p>Enter your weight and height below to check your BMI results</p>
+    </header>
+    
+    <section>
+        <form>
+            <div class="form-control">
+                <label for="weight">Put your weight in here (KG)</label>
+                <input type="number" min="0" max="150" id="weight" placeholder="Input Your Weight" required/>
+            </div>
+            <div class="form-control">
+                <label for="height"> And your height in here (CM)</label>
+                <input type="number" min="0" max="300" id="height" placeholder="Input Your height" required/>
+            </div>
+            <button type="submit" class="btn-submit">Calculate BMI</button>
+        </form>
+        <div class="result">
+            <h3 class="hidden">
+                Your BMI is <strong id="value">40</strong> which means You are <strong id="category">Normal</strong>
+            </h3>
+        </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
