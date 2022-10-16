@@ -9,4 +9,4 @@ Pembuatan Website ini digunakan untuk memenuhi tugas dari Skilvul TPA - 002 peri
 - JavaScript
 
 Untuk melihat live view website melalui link dibawah ini :
-- [BMI Calculator Meilyana Anisa Mawarti](https://63473b43372fe30b666ecc1f--meilyanaanisamawarti.netlify.app/"Link Netlify Deploy")
+- [BMI Calculator Meilyana Anisa Mawarti](https://63473b43372fe30b666ecc1f--meilyanaanisamawarti.netlify.app/ "Link Netlify Deploy")
